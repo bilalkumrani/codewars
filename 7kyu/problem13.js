@@ -23,3 +23,9 @@ function accum(s) {
 }
 
 console.log(accum("abcdertvsfghyklpm"));
+
+// best solution
+
+// function accum(s) {
+//     return s.split('').map((c, i) => (c.toUpperCase() + c.toLowerCase().repeat(i))).join('-');
+//   }
