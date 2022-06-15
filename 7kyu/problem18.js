@@ -23,4 +23,8 @@ function disemvowel(str) {
   return result;
 }
 
-console.log(disemvowel("this site is for losers LOL!"));
+// best solution
+
+function disemvowel(str) {
+  return str.replace(/[aeiou]/gi, "");
+}
